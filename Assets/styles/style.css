@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 25em;
+  height: 40em;
+  border-radius: 1em;
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  padding: 1em;
+}
+
+.code {
+  width: 23em;
+  height: 23em;
+  border-radius: 1em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+p {
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: hsl(220deg, 15%, 55%);
+}/*# sourceMappingURL=style.css.map */

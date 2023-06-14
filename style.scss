@@ -1,0 +1,52 @@
+// ## Colors
+
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(212, 45%, 89%);
+$Grayish-blue: hsl(220, 15%, 55%);
+$Dark-blue: hsl(218, 44%, 22%);
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color:$Light-gray;
+    font-family: 'Outfit', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    // border: 1px solid black;
+    width: 25em;
+    height: 40em;
+    border-radius: 1em;
+    margin: 10em auto;
+    display: flex;
+    flex-direction: column;
+    background-color: $White;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.code{
+    // border: 1px solid black;
+    width: 23em;
+    height: 23em;
+    border-radius: 1em;
+      
+}
+h2{
+ font-size: 2em;
+ margin-top: 0.5em;
+}
+p{
+ margin-top: 1em;
+ font-size: 1.5em;
+ color: $Grayish-blue;
+}
